@@ -1,0 +1,50 @@
+.MyIshop
+{
+    border: double gray 3px;
+    width: auto;
+    padding: 5px 20px;
+    background-color: #F0F0F0;
+}
+
+.MyIshop .ShopName
+{
+    border: double gray 3px;
+    color: blue;
+    font-size: 100px;
+    text-align: center;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.MyIshop .Items
+{
+    padding-top: 10px;
+    float: top;
+}
+
+
+.MyIshop .Items .item .itemImg
+{
+    max-width: 150px;
+    max-height: 150px;
+    padding: 0 0 10px 10px;
+}
+
+.MyIshop .Items .item .itemInfo .itemName
+{
+    text-decoration: underline;
+    color: blue;
+}
+
+.MyIshop .Items .item .itemInfo .itemCost
+{
+    padding: 0 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #f2000b;
+}
+
+.MyIshop .Items .item .itemInfo .itemBalance
+{
+    font-weight: bold;
+}
