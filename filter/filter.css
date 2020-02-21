@@ -1,0 +1,10 @@
+
+.FilterComponent .selectBlock
+{
+    padding: 5px;
+}
+
+.FilterComponent .selectBlock .select
+{
+    width: 420px;
+}
