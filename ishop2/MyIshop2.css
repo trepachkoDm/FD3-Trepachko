@@ -1,0 +1,16 @@
+
+.Ishop .ShopName
+{
+    color: red;
+    font-size: 80px;
+    text-align: center;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.Ishop .table .product
+{
+    border: 1px solid black;
+    padding: 3px;
+}
+
