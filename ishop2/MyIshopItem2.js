@@ -7,7 +7,7 @@ var IshopItem = React.createClass({
         cost: React.PropTypes.string.isRequired,
         url: React.PropTypes.string.isRequired,
         code: React.PropTypes.string.isRequired,
-        balance: React.PropTypes.number.isRequired,
+        balance: React.PropTypes.string.isRequired,
         cbSelected: React.PropTypes.func.isRequired,
         cbDeleted:  React.PropTypes.func.isRequired,
         isSelected: React.PropTypes.bool.isRequired
