@@ -1,0 +1,16 @@
+﻿.cardEdit .inputArea
+{
+    display: block;
+}
+
+.cardEdit .inputArea .fieldName
+{
+    display: inline-block;
+    width: 60px;
+}
+
+.cardEdit .inputArea .error
+{
+    color: #ff4a35;
+    padding-left: 10px;
+}
