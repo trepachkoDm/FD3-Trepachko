@@ -1,0 +1,15 @@
+﻿div.MobileClient
+{
+  padding: 2px 0;
+}
+
+.StatusActive
+{
+  background-color: greenyellow;
+}
+
+.StatusBlocked
+{
+  background-color: red;
+}
+
