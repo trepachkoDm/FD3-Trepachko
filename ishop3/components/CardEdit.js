@@ -42,7 +42,7 @@ class CardEdit extends React.Component {
                 this.setState({name: e.target.value, nameError: error});
                 break;
             case 'itemCost':
-                this.setState({price: e.target.value, costError: error});
+                this.setState({cost: e.target.value, costError: error});
                 break;
             case 'itemURL':
                 this.setState({url: e.target.value, urlError: error});
