@@ -58,7 +58,7 @@ class CardEdit extends React.Component {
             this.props.cbChanged({
                 ...this.props.item,
                 name: this.state.name,
-                cost: this.state.price,
+                cost: this.state.cost,
                 url: this.state.url,
                 balance: this.state.quantity
             });
