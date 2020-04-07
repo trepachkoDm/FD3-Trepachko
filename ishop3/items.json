@@ -1,7 +1,7 @@
 [
-    {"name": "Игровая приставка Sony PlayStation 4 1TB Call of Duty: Infinite Warfare", "price": "675,00", "url": "https://content2.onliner.by/catalog/device/header/c7509b6068edbb812644c7f2288fcfd1.jpeg", "code": "101,1", "balance": "33"},
-    {"name": "Игровая приставка Microsoft Xbox One S All-Digital Edition 1TB SoT + Minecraft + Fortnite", "price": "469,00", "url": "https://content2.onliner.by/catalog/device/header/dc4fdf100acb0f7ef0e363087b19aaef.jpeg", "code": "102,2", "balance": "12"},
-    {"name": "Очки виртуальной реальности Sony PlayStation VR v2 Mega Pack 2019", "price": "599,00", "url": "https://content2.onliner.by/catalog/device/header/c42f733b185ea38452aec815dd198ef2.jpeg", "code": "103,3", "balance": "23"},
-    {"name": "Руль Logitech Driving Force G29", "price": "478,00", "url": "https://content2.onliner.by/catalog/device/header/0687d748ded81f710ea29beb5f4c527b.png", "code": "104,4", "balance": "5"},
-    {"name": "Контроллер движения Sony PlayStation Move", "price": "175,00", "url": "https://content2.onliner.by/catalog/device/header/dc9c3225ea61da8904b62d3ca387ff05.jpeg", "code": "105,5", "balance": "17"}
+    {"name": "Игровая приставка Sony PlayStation 4 1TB Call of Duty: Infinite Warfare", "cost": "675,00", "url": "https://content2.onliner.by/catalog/device/header/c7509b6068edbb812644c7f2288fcfd1.jpeg", "code": "101,1", "balance": "33"},
+    {"name": "Игровая приставка Microsoft Xbox One S All-Digital Edition 1TB SoT + Minecraft + Fortnite", "cost": "469,00", "url": "https://content2.onliner.by/catalog/device/header/dc4fdf100acb0f7ef0e363087b19aaef.jpeg", "code": "102,2", "balance": "12"},
+    {"name": "Очки виртуальной реальности Sony PlayStation VR v2 Mega Pack 2019", "cost": "599,00", "url": "https://content2.onliner.by/catalog/device/header/c42f733b185ea38452aec815dd198ef2.jpeg", "code": "103,3", "balance": "23"},
+    {"name": "Руль Logitech Driving Force G29", "cost": "478,00", "url": "https://content2.onliner.by/catalog/device/header/0687d748ded81f710ea29beb5f4c527b.png", "code": "104,4", "balance": "5"},
+    {"name": "Контроллер движения Sony PlayStation Move", "cost": "175,00", "url": "https://content2.onliner.by/catalog/device/header/dc9c3225ea61da8904b62d3ca387ff05.jpeg", "code": "105,5", "balance": "17"}
 ]
