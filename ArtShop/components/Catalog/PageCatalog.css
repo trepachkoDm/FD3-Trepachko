@@ -1,0 +1,138 @@
+.catalog_header{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 20px;
+    box-shadow: 0 5px 1px -2px rgba(22,35,23,.5);
+    border: 1px solid lightgray;
+    background-color: whitesmoke;
+    margin-top: 10px;
+    margin-bottom: 20px;
+   
+}
+
+.header_form{
+    margin-top: 30px;
+}
+
+.form_search{
+      padding-right: 50px;
+}
+
+.product{
+    display: grid;
+    grid-template-columns: 15% 85%;
+}
+
+.filter{
+    box-shadow: -1px 1px 5px 1px rgba(22,35,23,.5);
+    border: 1px solid lightgray;
+    font-weight: bold;
+    text-align: justify;  
+}
+
+.btn_buy{
+    border: 6px solid red;
+   color: white;
+   text-decoration: none;
+    background-color: red; 
+}
+
+.row_catalog_list{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);  
+}
+
+@media (max-width: 880px) {
+    .row_catalog_list{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .catalog_header {
+        font-size: 15px;
+        grid-template-columns: 30% 45%;
+        
+    }
+    .form_search{
+        padding-right: 100px;
+        width: 50px;
+  }
+  .filter{
+    box-shadow: -1px 1px 5px 1px rgba(22,35,23,.5);
+    border: 1px solid lightgray;
+    font-size: 10px;
+    text-align: left;
+    width: 84px;
+}   
+
+    .btn_filter{
+    border: 11px solid red;
+    color: white;
+    text-decoration: none;
+    background-color: red;
+    margin-top: 5px;
+    font-size: 11px;
+    }
+
+}
+
+@media (max-width: 600px) {
+    .row_catalog_list{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .filter{
+        box-shadow: -1px 1px 5px 1px rgba(22,35,23,.5);
+        border: 1px solid lightgray;
+        font-size: 12px;
+        text-align: left;
+        width: 90px; 
+    }   
+    .btn_filter{
+        border: 11px solid red;
+        color: white;
+        text-decoration: none;
+        background-color: red;
+        margin-top: 5px;
+        font-size: 11px;
+    }
+}
+
+@media (max-width: 470px) {
+    .row_catalog_list{
+        grid-template-columns: repeat(1, 1fr);
+        
+    }
+    .catalog_header {
+        font-size: 10px;
+        grid-template-columns: 30% 65%;
+        
+    }
+
+    .form_search{
+        padding-right: 100px;
+        width: 40px;
+        text-align: start;
+  }
+
+    .filter{
+    box-shadow: -1px 1px 5px 1px rgba(22,35,23,.5);
+    border: 1px solid lightgray;
+    font-size: 10px;
+    text-align: left;
+    width: 84px;
+    
+}   
+
+.btn_filter{
+    border: 11px solid red;
+    color: white;
+    text-decoration: none;
+    background-color: red;
+    margin-top: 5px;
+    font-size: 11px;
+    }
+
+}

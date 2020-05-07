@@ -1,0 +1,123 @@
+
+.img_about {
+    box-shadow: 0 5px 1px -2px rgba(22,35,23,.5);
+    border: 1px solid lightgray;
+    
+}
+.fon {
+    background: url("https://www.zastavki.com/pictures/1600x1200/2012/Creative_Wallpaper_Man_Tree_034786_.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 900px;
+    height: 600px;
+    margin-top: 5px;
+    text-align: center;
+}
+
+blockquote {
+    margin: 0;
+    background-color: whitesmoke;
+    color: #131314;
+    padding: 30px 30px 30px 90px;
+    position: relative;
+    font-family: 'Lato', sans-serif;
+    }
+    blockquote:before {
+    content: "\201C";
+    font-family: serif;
+    position: absolute;
+    
+    left: 16px;
+    color: black;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: white;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 50px;
+    }
+    blockquote:after {
+    content: "";
+    width: 4px;
+    background: white;
+    position:absolute;
+    left: 70px;
+    
+    
+    }
+    blockquote p {
+    margin-top: 0;
+    font-size: 24px;
+    font-weight: 300;
+    }
+    blockquote cite {
+    font-style: normal;
+    text-transform: uppercase;
+    }
+
+
+    @media (max-width: 768px) {
+        .fon  {
+            width: 435px;
+            height: 213px;
+            background-size: 75%;
+                
+            }
+    
+            blockquote {
+                padding: 10px 10px 10px 64px;
+            }
+    
+            blockquote p  {
+                font-size: 15px;
+                
+            }
+            blockquote cite {
+                font-size: 15px;
+                font-weight: bold;
+                }
+        }
+        
+        @media (max-width: 425px) {
+            .fon  {
+                width: 324px;
+                height: 156px;      
+                }
+        
+                blockquote p  {
+                    font-size: 15px;
+                    
+                }
+                
+            }
+
+    @media (max-width: 320px) {
+       .fon  {
+        width: 235px;
+        height: 113px;
+        background-size: 75%;
+            
+        }
+
+        blockquote {
+            padding: 10px 10px 10px 64px;
+        }
+
+        blockquote p  {
+            font-size: 10px;
+            
+        }
+        
+        blockquote cite {
+            font-size: 10px;
+            font-weight: bold;
+            }
+    }
+    
+
+
+
+
+    

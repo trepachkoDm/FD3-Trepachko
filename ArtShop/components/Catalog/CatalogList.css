@@ -1,0 +1,98 @@
+.wrapper_catalogList{
+    display: grid;
+    justify-self: center;
+}
+
+
+.catalogList_img{
+    box-shadow: 10px 10px 30px 0 rgba(19, 14, 39, 0.3);
+    border: 10px solid whitesmoke;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.catalogList_img:hover{
+    box-shadow: 10px 10px 30px 0 rgba(19, 14, 39, 0.8);
+    cursor: pointer;
+}
+
+.img{
+    width: 300px;
+    height: 220px;
+}
+
+.row_op{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-columns: auto;
+   text-align: right;
+   margin-bottom: auto;
+   margin-top: auto;
+}
+
+.addActive {
+    animation: popin 0.3s ease;
+    background: url("https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Yellow_check.svg/1200px-Yellow_check.svg.png");
+    background-repeat: no-repeat;
+    background-size: 90%;
+    width: 50px;
+    height: 50px;
+    right: 30px;
+    top: 35px;
+}
+
+.row_op .btn_price_add {
+    background-color: #eeea15;
+    border-color: #eeea15;
+    width: 70px;
+    font-weight: bold;
+}
+
+@media (max-width: 1200px) {
+
+    .img {
+        width: 220px;
+        height: 150px;
+    }
+}
+
+@media (max-width: 600px) {
+
+    .row_op{
+        display: grid;
+        grid-template-rows: 1fr;
+        
+    }
+    .img{
+        width: 300px;
+        height: 220px;
+    }
+}
+
+@media (max-width: 470px) {
+
+    .img {
+        width: 250px;
+        height: 180px;
+    }
+}
+
+
+@media (max-width: 400px) {
+
+    .img {
+        width: 180px;
+        height: 120px;
+    }
+    .wrapper_catalogList{
+        display: grid;
+        justify-self: right;
+    }
+    .row_op{
+        
+       text-align: center;
+       
+    }
+}
+
+
